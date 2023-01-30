@@ -16,7 +16,7 @@
 <body class="text-center">
 
 <main class="form-signin w-100 m-auto">
-    <form action="./actions/get_parcel.php" method="post">
+    <form action="actions/track_parcel.php" method="post">
         <img class="mb-4" src="./assets/deliverymatch-logo.png" alt="" height="57">
         <h1 class="h3 mb-3 fw-normal">Please provide parcel tracking number</h1>
 
