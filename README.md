@@ -4,7 +4,7 @@
 DeliveryMatch is gekoppeld aan veel externe systemen, het werk dat je uitvoert bij DeliveryMatch bestaat dan ook uit het koppelen van externe systemen. Je werk zal bestaan uit zowel backend als frontend development.
 
 ## Uitleg
-Je moet voor deze challenge 2 kleine applicaties bouwen. De backend moet een REST API worden waarbij je parcels kan aanmelden. Als een parcel word aangemeld word er een uniek tracking nummer gegenereerd en terug gegeven in de response. Vervolgens moet er ook een endpoint zijn waarbij je de status van een parcel kan ophalen aan de hand van het tacking nummer. De frontend is een PHP website die met jouw backend moet gaan communiceren.
+Je moet voor deze challenge 2 kleine applicaties bouwen. De backend moet een REST API worden waarbij je parcels kan aanmelden. Als een parcel word aangemeld word er een uniek tracking nummer gegenereerd en terug gegeven in de response. Vervolgens moet er ook een endpoint zijn waarbij je de status van een parcel kan ophalen aan de hand van het trackingnummer. De frontend is een PHP website die met jouw backend moet gaan communiceren.
 ## Frontend
 De frontend bestaat uit 2 vooraf gemaakte pagina's namelijk: 
 
