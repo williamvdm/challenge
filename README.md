@@ -84,12 +84,18 @@ response:
 - [ ] REST standard
 - [ ] Security
 - [ ] Wees duidelijk naar je gebruikers, als er wat fout is gegaan laat zo goed mogelijk weten wat er mis is gegaan.
-- [ ] Geef een instructie van hoe we jouw applicatie kunnen runnen.
+- [ ] Maak een README.md aan in je backend repo. Geef hier instructie van hoe we jouw (backend) applicatie kunnen runnen.
 
-## Getting started
+## Getting started (Docker)
 1. Fork deze repo.
 2. `docker-compose up -d` voor het starten van de PHP applicatie.
 3. Open [http://localhost:8000](http://localhost:8000)
+
+## Getting started
+1. Fork deze repo.
+2. Mac: https://www.mytecbits.com/apple/macos/launch-a-php-website
+2. Windows: https://www.youtube.com/watch?v=tcoIVp1eNgM
+
 4. Maak een repo voor je eigen backend. Zorg dat deze public is.
 5. Voeg een link naar je backend repo toe aan deze readme.
 
