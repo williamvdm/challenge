@@ -1,7 +1,7 @@
 <?php
 
-// TODO: Fetch parcel bij backend adv het tracking number
+$rest_api_url = 'http://localhost:8000/parcels/' . $_POST["trackingNumber"];
+$json_data = file_get_contents($rest_api_url);
+$response_data = json_decode($json_data);
 
-$parcelStatus = "Delivered";
-$query = http_build_query(["parcel-status" => $parcelStatus]);
-header("Location: http://{$_SERVER['HTTP_HOST']}/tracking.php?$query");
+var_dump($response_data);

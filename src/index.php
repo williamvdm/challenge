@@ -14,6 +14,7 @@
             crossorigin="anonymous"></script>
 </head>
 <body class="text-center">
+<a href="tracking.php">Tracking</a>
 
 <main class="form-signin w-100 m-auto">
     <form action="./actions/book_parcel.php" method="post">
