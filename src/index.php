@@ -14,9 +14,8 @@
             crossorigin="anonymous"></script>
 </head>
 <body class="text-center">
-<a href="tracking.php">Tracking</a>
-
 <main class="form-signin w-100 m-auto">
+    <a class="btn btn-primary" href="tracking.php" role="button" style="margin: 20px;">Volg pakket</a>
     <form action="./actions/book_parcel.php" method="post">
         <img class="mb-4" src="./assets/deliverymatch-logo.png" alt="" height="57">
         <h1 class="h3 mb-3 fw-normal">Please provide parcel details</h1>
