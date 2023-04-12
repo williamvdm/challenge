@@ -31,6 +31,9 @@
             if (!empty($_GET['parcel-status'])) {
                 echo "<p class='mt-5 mb-3'>Package status: <strong>{$_GET['parcel-status']}</strong></p>";
             }
+            if (!empty($_GET['delivery-date'])) {
+                echo "<p class='mt-5 mb-3'>Delivery date: <strong>{$_GET['delivery-date']}</strong></p>";
+            }
         ?>
     </form>
 </main>
